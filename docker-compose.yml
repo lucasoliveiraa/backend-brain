@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    build: .
+    container_name: brain
+    restart: always
+    ports:
+      - '5432:5432'
+    volumes:
+      - .docker/dbdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=brain
