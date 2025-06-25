@@ -110,6 +110,10 @@ Para facilitar testes e validações durante o desenvolvimento, o projeto conta 
 npm run seed
 # ou
 yarn seed
+
+# Usuario a ser criado via seed
+email: admin@teste.com
+password: 12345678
 ```
 
 Esse comando executa o script `src/scripts/seed.ts`, que insere dados exemplo em todas as entidades principais, respeitando relacionamentos e validações de domínio.
