@@ -13,10 +13,10 @@ import {
   ApiOperation,
   ApiTags,
 } from '@nestjs/swagger';
-import { CreateProducerDto } from '../dto/create-producer.dto';
-import { UpdateProducerDto } from '../dto/update-producer.dto';
-import { ProducerEntity } from '../entities/producer.entity';
-import { ProducerService } from '../service/producer.service';
+import { CreateProducerDto } from './dto/create-producer.dto';
+import { UpdateProducerDto } from './dto/update-producer.dto';
+import { ProducerEntity } from './entities/producer.entity';
+import { ProducerService } from './producer.service';
 
 @ApiTags('Producer')
 @ApiBearerAuth('access-token')

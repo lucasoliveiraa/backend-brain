@@ -10,7 +10,7 @@ import {
   MinLength,
   Validate,
 } from 'class-validator';
-import { AreaLengthValidator } from 'src/shared/validators/area-length.validator';
+import { AreaLengthValidator } from '../../../shared/validators/area-length.validator';
 
 export class CreateFarmDto {
   @ApiProperty({

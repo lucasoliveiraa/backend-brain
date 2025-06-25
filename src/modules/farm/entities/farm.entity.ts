@@ -1,6 +1,4 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { HarvestEntity } from 'src/modules/harvest/entities/harvest.entity';
-import { ProducerEntity } from 'src/modules/producer/entities/producer.entity';
 import {
   Column,
   CreateDateColumn,
@@ -11,6 +9,8 @@ import {
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
+import { HarvestEntity } from '../../../modules/harvest/entities/harvest.entity';
+import { ProducerEntity } from '../../../modules/producer/entities/producer.entity';
 
 @Entity({ name: 'farm' })
 export class FarmEntity {

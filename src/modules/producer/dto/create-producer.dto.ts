@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsString, Matches, Validate } from 'class-validator';
-import { IsCpfOrCnpj } from 'src/shared/validators/is-cpf-or-cnpj.validator';
+import { IsCpfOrCnpj } from '../../../shared/validators/is-cpf-or-cnpj.validator';
 
 export class CreateProducerDto {
   @ApiProperty({

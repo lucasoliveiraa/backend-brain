@@ -5,8 +5,8 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { InjectEntityManager } from '@nestjs/typeorm';
-import { CulturePlantedEntity } from 'src/modules/harvest/entities/culture-planted.entity';
 import { EntityManager } from 'typeorm';
+import { CulturePlantedEntity } from '../../../modules/harvest/entities/culture-planted.entity';
 import { CreateFarmDto } from '../dto/create-farm.dto';
 import { FarmEntity } from '../entities/farm.entity';
 

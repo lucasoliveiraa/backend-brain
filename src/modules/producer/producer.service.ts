@@ -5,9 +5,9 @@ import {
   Logger,
   NotFoundException,
 } from '@nestjs/common';
-import { CreateProducerDto } from '../dto/create-producer.dto';
-import { UpdateProducerDto } from '../dto/update-producer.dto';
-import { ProducerRepository } from '../repositories/producer.repository';
+import { CreateProducerDto } from './dto/create-producer.dto';
+import { UpdateProducerDto } from './dto/update-producer.dto';
+import { ProducerRepository } from './repositories/producer.repository';
 
 @Injectable()
 export class ProducerService {

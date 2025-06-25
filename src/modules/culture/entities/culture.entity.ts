@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { CulturePlantedEntity } from 'src/modules/harvest/entities/culture-planted.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { CulturePlantedEntity } from '../../../modules/harvest/entities/culture-planted.entity';
 
 @Entity({ name: 'culture' })
 export class CultureEntity {
