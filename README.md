@@ -70,8 +70,8 @@ src/
 ## 📦 Instalação
 
 ```bash
-$ git clone https://github.com/lucasoliveiraa/brain-backend.git
-$ cd brain-backend
+$ git clone https://github.com/lucasoliveiraa/backend-brain.git
+$ cd backend-brain
 
 # .env
 DATABASE_HOST=localhost
