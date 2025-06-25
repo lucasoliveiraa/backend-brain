@@ -1,4 +1,4 @@
-# 🧑‍🌾 Sistema de Gestão de Produtores Rurais
+# 🤝🏼 Sistema de Gestão de Produtores Rurais
 
 Aplicação backend desenvolvida com NestJS para o gerenciamento de produtores rurais, suas propriedades (fazendas), safras e culturas plantadas. A API segue boas práticas de arquitetura em camadas, validações robustas e estrutura modular.
 
@@ -99,6 +99,23 @@ $ npm run start:dev
 $ yarn start:dev
 ```
 
+## 🌱 Seed de Dados
+
+Para facilitar testes e validações durante o desenvolvimento, o projeto conta com um script de seed que popula o banco de dados com dados iniciais realistas (produtores, fazendas, culturas e safras).
+
+### Executar Seed
+
+```bash
+# Comando padrão via script
+npm run seed
+# ou
+yarn seed
+```
+
+Esse comando executa o script `src/scripts/seed.ts`, que insere dados exemplo em todas as entidades principais, respeitando relacionamentos e validações de domínio.
+
+> 🔐 **Importante**: Certifique-se de que a aplicação esteja conectada corretamente ao banco de dados e que ele esteja vazio (ou em ambiente de desenvolvimento) antes de executar o seed.
+
 ## 📚 Documentação da API
 
 ```bash
@@ -134,4 +151,4 @@ Swagger:
 
 ## 🚀 Autor
 
-Made with 💜 by Lucas Oliveira 👋 [See my linkedin](https://www.linkedin.com/in/lucas-da-costa-oliveira-b75b30125/)
+Feito com 💜 por Lucas Oliveira 👋 [LinkedIn](https://www.linkedin.com/in/lucas-da-costa-oliveira-b75b30125/)
