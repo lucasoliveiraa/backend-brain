@@ -10,8 +10,7 @@ export class HealthCheckController {
   @Get()
   @ApiOperation({
     summary: 'Checa a saúde da aplicação',
-    description:
-      'Este endpoint verifica a saúde da aplicação e retorna o status de todos os serviços monitorados.',
+    description: 'Este endpoint verifica a saúde da aplicação.',
   })
   async checkHealth() {
     return this.healthCheckService.getHealthStatus();
